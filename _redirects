@@ -1,0 +1,8 @@
+# Clean URLs (add more as you split into sub-pages)
+/about      /about.html      200
+/research   /research.html   200
+/tools      /tools.html      200
+/team       /team.html       200
+
+# 404 fallback
+/*  /404.html  404
