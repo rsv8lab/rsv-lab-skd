@@ -210,7 +210,7 @@ const SITE = {
     cards: [
       { icon: "fa-map-marker-alt", color: "var(--primary-purple)", title: "Location", text: "Dept. of Microbiology, University of Chittagong · Ramakrishna Mission, Hathazari, Chittagong" },
       { icon: "fa-id-badge",       color: "var(--primary-blue)",   title: "ORCID",    text: "0009-0004-2253-7527" },
-      { icon: "fa-envelope",       color: "var(--primary-cyan)",   title: "Email",    text: "TODO@example.com" },
+      { icon: "fa-envelope",       color: "var(--primary-cyan)",   title: "Email",    text: "kamol.mbio@gmail.com" },
     ],
   },
 
