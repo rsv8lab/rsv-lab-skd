@@ -171,7 +171,7 @@ const SITE = {
     title:  "About the Researcher",
     name:   "Kamol Das",
     role:   "MS Student, Microbiology, University of Chittagong",
-    bio:    "MS student in the Department of Microbiology, University of Chittagong, affiliated with Ramakrishna Mission, Hathazari, Chittagong. Building the RSV Lab AST Analysis Tool as a seed instrument for PhD-level research in AMR surveillance, targeting LSHTM's AMR Centre.",
+    bio:    "MS student in the Department of Microbiology, University of Chittagong — Ramakrishna Mission, Hathazari, Chittagong. Building the RSV Lab AST Analysis Tool as a seed instrument for PhD-level research in AMR surveillance, targeting AST & AMR Centre.",
     avatar: "https://github.com/KamolDas.png",
     orcid:  "https://orcid.org/0009-0004-2253-7527",
 
