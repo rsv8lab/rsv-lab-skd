@@ -24,9 +24,9 @@ const SITE = {
 
   /* ---------- SOCIAL / CONTACT LINKS ---------- */
   github:    "https://github.com/KamolDas",
-  twitter:   "",
-  linkedin:  "",
-  youtube:   "",
+  twitter:   "https://x.com/KDKamol",
+  linkedin:  "https://www.linkedin.com/in/kamol-das-7a4b0b1b7/",
+  youtube:   "https://www.youtube.com/@RSVLab",
   email:     "kamol.mbio@gmail.com",
   phone:     "01775510351",
   location:  "Department of Microbiology, University of Chittagong · Ramakrishna Mission, Hathazari, Chittagong, Bangladesh",
