@@ -6,7 +6,7 @@
    After saving on GitHub, Cloudflare Pages redeploys automatically.
 
    Updated on behalf of Kamol Das — real project details swapped in
-   for the placeholder demo content (Dr. Rahman / fictional team /
+   for the placeholder demo content (Dr.KD / fictional team /
    fake DOIs). Fields marked TODO still need a value from Kamol.
    ============================================================ */
 
@@ -154,7 +154,7 @@ const SITE = {
       {
         title:   "Strengthening Digital Antimicrobial Resistance Surveillance in Bangladesh: A Machine-Learning-Enabled Framework for Laboratory Data Quality, Resistance-Pattern Detection, and Sentinel-Site Interoperability",
         authors: "Kamol Das",
-        journal: "PhD research proposal draft — targeting LSHTM AMR Centre",
+        journal: "PhD research proposal draft — targeting AST & AMR Centre",
         doi:     "",
       },
       {
