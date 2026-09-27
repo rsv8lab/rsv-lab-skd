@@ -15,8 +15,8 @@ const SITE = {
   /* ---------- BASIC INFO ---------- */
   labName:     "RSV Lab",
   shortName:   "RSV Lab",
-  tagline:     "AMR Surveillance & AST Analysis",
-  taglinePart1: "Antimicrobial Resistance",
+  tagline:     "ML-assisted AMR Surveillance & AST Analysis",
+  taglinePart1: "Machine Learning (ML) Antimicrobial Resistance",
   taglinePart2: "Surveillance & Data Science",   // rendered with accent colour
   description: "A microbiology and bioinformatics research effort building open tools for antimicrobial susceptibility testing (AST) analysis, CLSI/EUCAST-aligned interpretation, and machine-learning-assisted AMR surveillance in Bangladesh.",
   founderName: "Kamol Das",
