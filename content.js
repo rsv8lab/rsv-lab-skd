@@ -172,7 +172,7 @@ const SITE = {
     name:   "Kamol Das",
     role:   "MS Student, Microbiology, University of Chittagong",
     bio:    "MS student in the Department of Microbiology, University of Chittagong, affiliated with Ramakrishna Mission, Hathazari, Chittagong. Building the RSV Lab AST Analysis Tool as a seed instrument for PhD-level research in AMR surveillance, targeting LSHTM's AMR Centre.",
-    avatar: "https://github.com/KamolDas.png&background=7C3AED&color=fff&size=150",
+    avatar: "https://github.com/KamolDas.png",
     orcid:  "https://orcid.org/0009-0004-2253-7527",
 
     // No additional confirmed members yet — leave empty until real collaborators are added.
@@ -192,7 +192,7 @@ const SITE = {
     stats: [],
 
     contributors: [
-      { name: "Kamol Das", role: "Researcher", avatar: "https://github.com/KamolDas.png&background=7C3AED&color=fff&size=90", url: "https://github.com/KamolDas" },
+      { name: "Kamol Das", role: "Researcher", avatar: "https://github.com/KamolDas.png", url: "https://github.com/KamolDas" },
     ],
   },
 
