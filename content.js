@@ -191,7 +191,7 @@ const SITE = {
     stats: [],
 
     contributors: [
-      { name: "Kamol Das", role: "Researcher", avatar: "https://ui-avatars.com/api/?name=Kamol+Das&background=7C3AED&color=fff&size=90", url: "https://github.com/KamolDas" },
+      { name: "Kamol Das", role: "Researcher", avatar: "https://github.com/KamolDas.png&background=7C3AED&color=fff&size=90", url: "https://github.com/KamolDas" },
     ],
   },
 
