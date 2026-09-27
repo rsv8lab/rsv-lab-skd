@@ -47,7 +47,7 @@ const SITE = {
   ],
 
   /* ---------- HERO BADGE ---------- */
-  heroBadge: "Kamol Das · MS, Microbiology, University of Chittagong",
+  heroBadge: "Kamol Das · Microbiology, University of Chittagong",
 
   /* ---------- ABOUT ---------- */
   about: {
