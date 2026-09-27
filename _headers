@@ -10,6 +10,3 @@
 
 /*.html
   Cache-Control: public, max-age=3600
-
-/content.js
-  Cache-Control: public, max-age=300

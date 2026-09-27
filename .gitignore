@@ -1,18 +1,11 @@
-# OS junk
 .DS_Store
 Thumbs.db
 Desktop.ini
-
-# Editors
 .vscode/
 .idea/
 *.swp
-
-# Cloudflare / build
 .wrangler/
 node_modules/
 dist/
-
-# Logs
 *.log
 npm-debug.log*

@@ -3,28 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RSV Lab | ML-assisted AMR Surveillance & AST Analysis</title>
+    <title>RSV Lab | AMR Surveillance & AST Analysis</title>
     <meta name="description" content="A microbiology and bioinformatics research effort building open tools for antimicrobial susceptibility testing (AST) analysis, CLSI/EUCAST-aligned interpretation, and machine-learning-assisted AMR surveillance in Bangladesh.">
-    <meta name="author" content="Kamol Das">
     <link rel="canonical" href="https://rsv8lab-github-io.pages.dev/">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#4C1D95">
 
     <meta property="og:type" content="website">
-    <meta property="og:title" content="RSV Lab | ML-assisted AMR Surveillance & AST Analysis">
+    <meta property="og:title" content="RSV Lab | AMR Surveillance & AST Analysis">
     <meta property="og:description" content="Open tools for AST analysis and ML-assisted AMR surveillance in Bangladesh.">
     <meta property="og:url" content="https://rsv8lab-github-io.pages.dev/">
-    <meta property="og:image" content="https://rsv8lab-github-io.pages.dev/rsvlab-logo.png">
-    <meta property="og:image:alt" content="RSV Lab logo">
+    <meta property="og:image" content="https://rsv8lab-github-io.pages.dev/assets/og-image.png">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="RSV Lab | ML-assisted AMR Surveillance & AST Analysis">
-    <meta name="twitter:description" content="Open tools for AST analysis and ML-assisted AMR surveillance in Bangladesh.">
 
-    <meta name="twitter:image" content="https://rsv8lab-github-io.pages.dev/rsvlab-logo.png">
-
-    <!-- Favicon: base64 PNG — no external file needed -->
-    <link rel="icon" type="image/png" href="data:image/png;base64,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">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
 
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -50,7 +42,6 @@
         body { font-family: 'Inter', sans-serif; color: var(--text-dark); background: var(--white); line-height: 1.6; }
         .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
         .accent { color: var(--primary-purple); }
-        .hidden { display: none !important; }
 
         .header { background: var(--white); box-shadow: 0 1px 3px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 100; }
         .navbar { display: flex; align-items: center; justify-content: space-between; height: 70px; }
@@ -83,7 +74,6 @@
         .card-text { color: var(--text-light); font-size: 0.95rem; }
         .card-link { display: inline-flex; align-items: center; gap: 8px; margin-top: 15px; color: var(--primary-purple); text-decoration: none; font-weight: 500; }
         .card-link:hover { text-decoration: underline; }
-        .card-image { width: 100%; height: 180px; object-fit: cover; border-radius: 8px; margin-bottom: 15px; }
 
         .publication-list { display: flex; flex-direction: column; gap: 25px; }
         .publication-item { background: var(--white); padding: 25px; border-radius: var(--border-radius); border: 1px solid #e2e8f0; }
@@ -223,12 +213,12 @@
             <p class="section-subtitle" id="community-subtitle"></p>
             <div class="card-grid" id="community-channels"></div>
             <div class="stats-strip" id="community-stats"></div>
-            <h3 class="community-subhead" id="community-contrib-head">Contributors &amp; Members</h3>
+            <h3 class="community-subhead">Contributors &amp; Members</h3>
             <div class="contributor-grid" id="community-contributors"></div>
         </div>
     </section>
 
-    <section class="collab-section" id="collab-section">
+    <section class="collab-section">
         <div class="container">
             <h2 id="collab-title"></h2>
             <p id="collab-text"></p>
@@ -254,188 +244,127 @@
     <script src="content.js"></script>
     <script>
     (function render() {
-        /* ---------- HELPERS ---------- */
         const $ = id => document.getElementById(id);
-        const S = window.SITE || {};
-        const D = S.defaults || {};
+        const S = SITE;
 
-        const has = v => Array.isArray(v) ? v.length > 0 : !!v;
-        const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({
-            '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
-        }[c]));
-        const hideSection = id => $(id)?.closest('section')?.classList.add('hidden');
-        const accentLastWord = t =>
-            String(t || '').replace(/(\w+)([\s.!?:;]*)$/, '<span class="accent">$1</span>$2');
-
-        const cardColor = D.cardColor || 'var(--primary-purple)';
-        const cardIcon  = D.cardIcon  || 'fa-circle';
-        const cardCta   = D.cardCta   || 'Learn More';
-        const avatarBg  = D.avatarBg  || '7C3AED';
-
-        /* ---------- HEADER ---------- */
-        const parts = (S.shortName || S.labName || 'Lab').split(' ');
-        $('nav-logo').innerHTML = `<span>${esc(parts[0])}</span> <span class="accent">${esc(parts.slice(1).join(' '))}</span>`;
-
-        const buildNavLinks = () => (S.nav || [])
-            .map(n => `<a href="${esc(n.href)}">${esc(n.label)}</a>`).join('');
-
-        $('nav-links').innerHTML = buildNavLinks()
-            + (S.partnerLabUrl ? `<a href="${esc(S.partnerLabUrl)}" target="_blank" rel="noopener" class="partner-link">
-                 <i class="fas fa-flask"></i> ${esc(S.partnerLabText || 'Partner')}</a>` : '');
-
+        const parts = S.shortName.split(" ");
+        $('nav-logo').innerHTML = `<span>${parts[0]}</span> <span class="accent">${parts.slice(1).join(" ")}</span>`;
+        $('nav-links').innerHTML = S.nav.map(n => `<a href="${n.href}">${n.label}</a>`).join("")
+            + (S.partnerLabUrl ? `<a href="${S.partnerLabUrl}" target="_blank" rel="noopener" class="partner-link">
+                 <i class="fas fa-flask"></i> ${S.partnerLabText}</a>` : "");
         $('nav-icons').innerHTML = [
-            S.github   ? `<a href="${esc(S.github)}"   target="_blank" rel="noopener" title="GitHub"   aria-label="GitHub"><i class="fab fa-github"></i></a>`   : "",
-            S.twitter  ? `<a href="${esc(S.twitter)}"  target="_blank" rel="noopener" title="Twitter"  aria-label="Twitter"><i class="fab fa-twitter"></i></a>` : "",
-            S.youtube  ? `<a href="${esc(S.youtube)}"  target="_blank" rel="noopener" title="YouTube"  aria-label="YouTube"><i class="fab fa-youtube"></i></a>` : "",
-            S.linkedin ? `<a href="${esc(S.linkedin)}" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>` : "",
+            S.github   ? `<a href="${S.github}" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>` : "",
+            S.twitter  ? `<a href="${S.twitter}" target="_blank" rel="noopener" title="Twitter"><i class="fab fa-twitter"></i></a>` : "",
+            S.youtube  ? `<a href="${S.youtube}" target="_blank" rel="noopener" title="YouTube"><i class="fab fa-youtube"></i></a>` : "",
+            S.linkedin ? `<a href="${S.linkedin}" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin"></i></a>` : "",
         ].join("");
 
-        /* ---------- HERO ---------- */
-        document.title = `${S.labName || 'Lab'} | ${S.tagline || ''}`.trim();
-        $('hero-title').innerHTML = `${esc(S.taglinePart1 || '')} <span class="accent">${esc(S.taglinePart2 || '')}</span>`;
-        $('hero-subtitle').textContent = S.description || '';
-        $('hero-avatar').src = `https://ui-avatars.com/api/?name=${encodeURIComponent(S.founderName || 'Lab')}&background=${avatarBg}&color=fff&size=28`;
-        $('hero-badge-text').textContent = S.heroBadge || '';
+        document.title = `${S.labName} | ${S.tagline}`;
+        $('hero-title').innerHTML = `${S.taglinePart1} <span class="accent">${S.taglinePart2}</span>`;
+        $('hero-subtitle').textContent = S.description;
+        $('hero-avatar').src = `https://ui-avatars.com/api/?name=${encodeURIComponent(S.founderName)}&background=7C3AED&color=fff&size=28`;
+        $('hero-badge-text').textContent = S.heroBadge;
 
-        /* ---------- CARD HELPER ---------- */
         function cardHTML(c) {
-            const iconRaw   = c.icon  || cardIcon;
-            const iconClass = iconRaw.includes(' ') ? iconRaw : `fas ${iconRaw}`;
-            const accent    = c.color || cardColor;
-            const cta       = c.cta   || cardCta;
-            return `<div class="card" style="--card-accent: ${esc(accent)}">
-                ${c.image ? `<img src="${esc(c.image)}" alt="${esc(c.title || '')}" class="card-image" loading="lazy">` : ''}
-                <div class="card-icon"><i class="${esc(iconClass)}"></i></div>
-                <h3 class="card-title">${esc(c.title || '')}</h3>
-                <p class="card-text">${esc(c.text || '')}</p>
-                ${c.link ? `<a href="${esc(c.link)}" target="_blank" rel="noopener" class="card-link">${esc(cta)} <i class="fas fa-arrow-right"></i></a>` : ""}
+            const iconClass = c.icon.includes(' ') ? c.icon : `fas ${c.icon}`;
+            return `<div class="card" style="--card-accent: ${c.color}">
+                <div class="card-icon"><i class="${iconClass}"></i></div>
+                <h3 class="card-title">${c.title}</h3>
+                <p class="card-text">${c.text}</p>
+                ${c.link ? `<a href="${c.link}" target="_blank" rel="noopener" class="card-link">${c.cta || 'Learn More'} <i class="fas fa-arrow-right"></i></a>` : ""}
             </div>`;
         }
-
-        /* ---------- CARD SECTIONS ---------- */
         function renderCards(sectionId, sectionKey) {
             const s = S[sectionKey];
-            if (!s || !has(s.cards)) { hideSection(sectionId); return; }
-            $(sectionId + '-title').innerHTML = accentLastWord(s.title);
-            $(sectionId + '-subtitle').textContent = s.subtitle || '';
+            $(sectionId + '-title').innerHTML = s.title.replace(/(\w+)$/, '<span class="accent">$1</span>');
+            $(sectionId + '-subtitle').textContent = s.subtitle;
             $(sectionId + '-cards').innerHTML = s.cards.map(cardHTML).join("");
         }
+
         renderCards('about',    'about');
         renderCards('research', 'research');
         renderCards('tools',    'tools');
 
-        /* ---------- PUBLICATIONS ---------- */
-        if (has(S.publications?.items)) {
-            $('pub-title').innerHTML = accentLastWord(S.publications.title);
-            $('pub-subtitle').textContent = S.publications.subtitle || '';
-            $('pub-list').innerHTML = S.publications.items.map(p => `
-                <div class="publication-item">
-                    <h3 class="pub-title">${esc(p.title)}</h3>
-                    ${p.authors ? `<p class="pub-authors"><strong>${esc(p.authors)}</strong></p>` : ''}
-                    ${p.journal ? `<p class="pub-journal">${esc(p.journal)}</p>` : ''}
-                    ${p.doi ? `<a href="${esc(p.doi)}" target="_blank" rel="noopener" class="pub-link">DOI</a>` : ''}
+        $('pub-title').innerHTML = S.publications.title.replace(/(\w+)$/, '<span class="accent">$1</span>');
+        $('pub-subtitle').textContent = S.publications.subtitle;
+        $('pub-list').innerHTML = S.publications.items.map(p => `
+            <div class="publication-item">
+                <h3 class="pub-title">${p.title}</h3>
+                <p class="pub-authors"><strong>${p.authors}</strong></p>
+                <p class="pub-journal">${p.journal}</p>
+                ${p.doi ? `<a href="${p.doi}" target="_blank" rel="noopener" class="pub-link">DOI</a>` : ""}
+            </div>`).join("");
+
+        $('team-title').innerHTML = S.team.title.replace(/(\w+)$/, '<span class="accent">$1</span>');
+        $('team-avatar').src = S.team.avatar;
+        $('team-avatar').alt = S.team.name;
+        $('team-name').textContent = S.team.name;
+        $('team-role').textContent = S.team.role;
+        $('team-bio').textContent  = S.team.bio;
+        $('team-social').innerHTML = [
+            S.github ? `<a href="${S.github}" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>` : "",
+            S.email  ? `<a href="mailto:${S.email}" title="Email"><i class="fas fa-envelope"></i></a>` : "",
+            S.team.orcid ? `<a href="${S.team.orcid}" target="_blank" rel="noopener" title="ORCID"><i class="fab fa-orcid"></i></a>` : "",
+        ].join("");
+
+        if (S.team.members && S.team.members.length) {
+            $('team-members').innerHTML = S.team.members.map(m => `
+                <a class="member" href="${m.url}" target="_blank" rel="noopener">
+                    <img src="${m.avatar}" alt="${m.name}" loading="lazy"
+                         onerror="this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(m.name)}&background=7C3AED&color=fff&size=90'">
+                    <div class="member-name">${m.name}</div>
+                    <div class="member-role">${m.role}</div>
+                </a>`).join("");
+        }
+
+        $('community-title').innerHTML    = S.community.title.replace(/(\w+)$/, '<span class="accent">$1</span>');
+        $('community-subtitle').textContent = S.community.subtitle;
+
+        $('community-channels').innerHTML = S.community.channels.map(c => {
+            const iconClass = c.icon.includes(' ') ? c.icon : `fas ${c.icon}`;
+            return `<div class="card" style="--card-accent: ${c.color}">
+                <div class="card-icon"><i class="${iconClass}"></i></div>
+                <h3 class="card-title">${c.title}</h3>
+                <p class="card-text">${c.text}</p>
+                <a href="${c.link}" target="_blank" rel="noopener" class="card-link">${c.cta} <i class="fas fa-arrow-right"></i></a>
+            </div>`;
+        }).join("");
+
+        if (S.community.stats && S.community.stats.length) {
+            $('community-stats').innerHTML = S.community.stats.map(s => `
+                <div>
+                    <div class="stat-value">${s.value}</div>
+                    <div class="stat-label">${s.label}</div>
                 </div>`).join("");
         } else {
-            hideSection('publications');
+            $('community-stats').style.display = 'none';
         }
 
-        /* ---------- TEAM ---------- */
-        if (S.team && (S.team.name || has(S.team.members))) {
-            $('team-title').innerHTML = accentLastWord(S.team.title);
-            $('team-avatar').src = S.team.avatar || '';
-            $('team-avatar').alt = S.team.name || '';
-            $('team-name').textContent = S.team.name || '';
-            $('team-role').textContent = S.team.role || '';
-            $('team-bio').textContent  = S.team.bio  || '';
-            $('team-social').innerHTML = [
-                S.github     ? `<a href="${esc(S.github)}" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>` : "",
-                S.email      ? `<a href="mailto:${esc(S.email)}" title="Email"><i class="fas fa-envelope"></i></a>` : "",
-                S.team.orcid ? `<a href="${esc(S.team.orcid)}" target="_blank" rel="noopener" title="ORCID"><i class="fab fa-orcid"></i></a>` : "",
-            ].join("");
+        $('community-contributors').innerHTML = S.community.contributors.map(p => `
+            <a class="contributor" href="${p.url}" target="_blank" rel="noopener">
+                <img src="${p.avatar}" alt="${p.name}" loading="lazy"
+                     onerror="this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(p.name)}&background=7C3AED&color=fff&size=90'">
+                <div class="contributor-name">${p.name}</div>
+                <div class="contributor-role">${p.role}</div>
+            </a>`).join("");
 
-            if (has(S.team.members)) {
-                $('team-members').innerHTML = S.team.members.map(m => `
-                    <a class="member" href="${esc(m.url || '#')}" target="_blank" rel="noopener">
-                        <img src="${esc(m.avatar)}" alt="${esc(m.name)}" loading="lazy"
-                             onerror="this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(m.name || '')}&background=${avatarBg}&color=fff&size=90'">
-                        <div class="member-name">${esc(m.name)}</div>
-                        <div class="member-role">${esc(m.role)}</div>
-                    </a>`).join("");
-            } else {
-                $('team-members').classList.add('hidden');
-            }
-        } else {
-            hideSection('team');
-        }
+        $('collab-title').innerHTML = S.collab.title.replace(/(EcoBio Lab|[\w]+)$/, '<span class="accent">$1</span>');
+        $('collab-text').textContent = S.collab.text;
+        $('collab-btn').href = S.partnerLabUrl;
+        $('collab-btn').innerHTML = `<i class="fas fa-external-link-alt"></i> ${S.collab.cta}`;
 
-        /* ---------- COMMUNITY ---------- */
-        if (S.community) {
-            $('community-title').innerHTML    = accentLastWord(S.community.title);
-            $('community-subtitle').textContent = S.community.subtitle || '';
+        $('contact-title').innerHTML = S.contact.title.replace(/(\w+)$/, '<span class="accent">$1</span>');
+        $('contact-subtitle').textContent = S.contact.subtitle;
+        $('contact-grid').innerHTML = S.contact.cards.map(c => `
+            <div class="contact-card" style="--card-accent:${c.color}">
+                <div class="contact-icon"><i class="fas ${c.icon}"></i></div>
+                <h3 class="contact-title">${c.title}</h3>
+                <p class="contact-text">${c.text}</p>
+            </div>`).join("");
 
-            if (has(S.community.channels)) {
-                $('community-channels').innerHTML = S.community.channels.map(cardHTML).join("");
-            } else {
-                $('community-channels').classList.add('hidden');
-            }
-
-            if (has(S.community.stats)) {
-                $('community-stats').innerHTML = S.community.stats.map(s => `
-                    <div>
-                        <div class="stat-value">${esc(s.value)}</div>
-                        <div class="stat-label">${esc(s.label)}</div>
-                    </div>`).join("");
-            } else {
-                $('community-stats').classList.add('hidden');
-            }
-
-            if (has(S.community.contributors)) {
-                $('community-contributors').innerHTML = S.community.contributors.map(p => `
-                    <a class="contributor" href="${esc(p.url || '#')}" target="_blank" rel="noopener">
-                        <img src="${esc(p.avatar)}" alt="${esc(p.name)}" loading="lazy"
-                             onerror="this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(p.name || '')}&background=${avatarBg}&color=fff&size=90'">
-                        <div class="contributor-name">${esc(p.name)}</div>
-                        <div class="contributor-role">${esc(p.role)}</div>
-                    </a>`).join("");
-            } else {
-                $('community-contributors').classList.add('hidden');
-                $('community-contrib-head').classList.add('hidden');
-            }
-        } else {
-            hideSection('community');
-        }
-
-        /* ---------- COLLAB ---------- */
-        if (S.collab && S.partnerLabUrl) {
-            $('collab-title').innerHTML = accentLastWord(S.collab.title);
-            $('collab-text').textContent = S.collab.text || '';
-            $('collab-btn').href = S.partnerLabUrl;
-            $('collab-btn').innerHTML = `<i class="fas fa-external-link-alt"></i> ${esc(S.collab.cta || 'Visit')}`;
-        } else {
-            $('collab-section').classList.add('hidden');
-        }
-
-        /* ---------- CONTACT ---------- */
-        if (S.contact && has(S.contact.cards)) {
-            $('contact-title').innerHTML = accentLastWord(S.contact.title);
-            $('contact-subtitle').textContent = S.contact.subtitle || '';
-            $('contact-grid').innerHTML = S.contact.cards.map(c => `
-                <div class="contact-card" style="--card-accent:${esc(c.color || cardColor)}">
-                    <div class="contact-icon"><i class="fas ${esc(c.icon || cardIcon)}"></i></div>
-                    <h3 class="contact-title">${esc(c.title || '')}</h3>
-                    <p class="contact-text">${esc(c.text || '')}</p>
-                </div>`).join("");
-        } else {
-            hideSection('contact');
-        }
-
-        /* ---------- FOOTER ---------- */
-        $('footer-copy').textContent =
-            (S.footer && S.footer.copyright) ||
-            `© ${S.year || ''} ${S.labName || ''}`.trim();
-
-        $('footer-links').innerHTML = buildNavLinks()
-            + (S.partnerLabUrl ? `<a href="${esc(S.partnerLabUrl)}" target="_blank" rel="noopener">${esc(S.partnerLabText || 'Partner')}</a>` : "");
+        $('footer-copy').textContent = S.footer.copyright;
+        $('footer-links').innerHTML = S.nav.map(n => `<a href="${n.href}">${n.label}</a>`).join("")
+            + (S.partnerLabUrl ? `<a href="${S.partnerLabUrl}" target="_blank" rel="noopener">${S.partnerLabText}</a>` : "");
     })();
     </script>
 </body>
