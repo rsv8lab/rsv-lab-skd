@@ -38,10 +38,10 @@ const SITE = {
      BASIC INFO
      ------------------------------------------------------------ */
   labName:      "RSV Lab",
-  shortName:    "RSV Lab",                    // split on space for header logo
+  shortName:    "RSV Lab",
   tagline:      "ML-assisted AMR Surveillance & AST Analysis",
   taglinePart1: "Machine Learning (ML) assisted Antimicrobial Resistance",
-  taglinePart2: "Surveillance & Data Science",   // rendered with accent colour
+  taglinePart2: "Surveillance & Data Science",
   description:  "A microbiology and bioinformatics research effort building open tools for antimicrobial susceptibility testing (AST) analysis, CLSI/EUCAST-aligned interpretation, and machine-learning-assisted AMR surveillance in Bangladesh.",
   founderName:  "Kamol Das",
   year:         "2026",
@@ -51,7 +51,7 @@ const SITE = {
      Set a field to "" to hide that icon everywhere.
      ------------------------------------------------------------ */
   github:    "https://github.com/KamolDas",
-  twitter:   "https://x.com/KDKamol",                 // key name stays 'twitter'
+  twitter:   "https://x.com/KDKamol",
   linkedin:  "https://www.linkedin.com/in/kamol-das-7a4b0b1b7/",
   youtube:   "https://www.youtube.com/@RSVLab",
   email:     "kamol.mbio@gmail.com",
@@ -176,7 +176,6 @@ const SITE = {
         color: "var(--primary-cyan)",
         title: "Verified CLSI Breakpoint Table",
         text:  "A hand-checked breakpoint dataset cross-verified against CLSI M100-Ed36 (2026), built after fabricated AI-generated breakpoints were caught and corrected.",
-        // no link → no button rendered
       },
     ],
   },
@@ -193,7 +192,6 @@ const SITE = {
         title:   "RSV Laboratory AST Analysis Tool: Complete Statistical & Methodological Documentation Set",
         authors: "Kamol Das",
         journal: "5-part LaTeX book (scrbook), v2.2 — Full 91-Equation Edition (Sept 2026) — in preparation",
-        // no doi → no DOI link rendered
       },
       {
         title:   "Strengthening Digital Antimicrobial Resistance Surveillance in Bangladesh: A Machine-Learning-Enabled Framework for Laboratory Data Quality, Resistance-Pattern Detection, and Sentinel-Site Interoperability",
@@ -220,8 +218,6 @@ const SITE = {
     bio:    "MS student in the Department of Microbiology, University of Chittagong — Ramakrishna Mission, Hathazari, Chittagong. Building the RSV Lab AST Analysis Tool as a seed instrument for PhD-level research in AMR surveillance, targeting AST & AMR Centre.",
     avatar: "https://github.com/KamolDas.png",
     orcid:  "https://orcid.org/0009-0004-2253-7527",
-
-    // Add collaborators here when ready. Leave [] to hide the grid.
     members: [],
   },
 
@@ -253,7 +249,7 @@ const SITE = {
       },
     ],
 
-    stats: [],  // add { value, label } objects to show a stats strip
+    stats: [],
 
     contributors: [
       {
@@ -265,8 +261,6 @@ const SITE = {
       {
         name:   "Sazal Das",
         role:   "Researcher",
-        // ⚠️ placeholder — Sazal currently uses Kamol's GitHub avatar.
-        //    Replace with Sazal's real image when available.
         avatar: "https://github.com/KamolDas.png",
         url:    "https://github.com/KamolDas",
       },
