@@ -3,51 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- ============================================================
-         META & SEO
-         Update URLs after Cloudflare gives you a final domain.
-         ============================================================ -->
     <title>RSV Lab | ML-assisted AMR Surveillance & AST Analysis</title>
     <meta name="description" content="A microbiology and bioinformatics research effort building open tools for antimicrobial susceptibility testing (AST) analysis, CLSI/EUCAST-aligned interpretation, and machine-learning-assisted AMR surveillance in Bangladesh.">
-    <meta name="author" content="Kamol Das">
+    <meta name="author" content="Kamol Das">                                         <!-- ⬅ ADDED -->
     <link rel="canonical" href="https://rsv8lab-github-io.pages.dev/">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#4C1D95">
 
-    <!-- Open Graph / social preview -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="RSV Lab | ML-assisted AMR Surveillance & AST Analysis">
     <meta property="og:description" content="Open tools for AST analysis and ML-assisted AMR surveillance in Bangladesh.">
     <meta property="og:url" content="https://rsv8lab-github-io.pages.dev/">
-    <meta property="og:image" content="https://rsv8lab-github-io.pages.dev/rsvlab-logo.png">
-    <meta property="og:image:alt" content="RSV Lab logo">
+    <meta property="og:image" content="https://rsv8lab-github-io.pages.dev/rsvlab-logo.png">          <!-- ⬅ UPDATED: domain matches canonical -->
+    <meta property="og:image:alt" content="RSV Lab logo">                                            <!-- ⬅ ADDED -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="RSV Lab | ML-assisted AMR Surveillance & AST Analysis">
-    <meta name="twitter:description" content="Open tools for AST analysis and ML-assisted AMR surveillance in Bangladesh.">
+    <meta name="twitter:title" content="RSV Lab | ML-assisted AMR Surveillance & AST Analysis">      <!-- ⬅ ADDED -->
+    <meta name="twitter:description" content="Open tools for AST analysis and ML-assisted AMR surveillance in Bangladesh.">  <!-- ⬅ ADDED -->
 
-    <!-- Favicon — inline SVG so no external file is required -->
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
+    <!-- Favicon: your own logo, embedded as base64 so no hosting is required -->
+    <link rel="icon" type="image/png" href="data:image/png;base64,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">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-    <!-- Fonts & Icons -->
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <style>
-        /* ============================================================
-           CSS VARIABLES (THEME)
-           Change a value → whole site updates.
-           Card-level overrides happen inline via --card-accent.
-           ============================================================ */
         :root {
             --primary-purple: #7C3AED;
             --primary-blue:   #2563EB;
             --primary-cyan:   #06B6D4;
-            --primary-green:  #2D6A4F;
-            --primary-earth:  #A47148;
             --dark-navy:      #0F172A;
             --text-dark:      #1e293b;
             --text-light:     #64748b;
@@ -56,27 +42,14 @@
             --card-padding:   30px;
             --grid-gap:       25px;
             --border-radius:  12px;
-
-            /* Card defaults (overridable per card via inline style) */
-            --card-accent: var(--primary-purple);
         }
-
-        /* ---------- Reset & base ---------- */
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        html { scroll-behavior: smooth; scroll-padding-top: 90px; }
+        html { scroll-behavior: smooth; }
         body { font-family: 'Inter', sans-serif; color: var(--text-dark); background: var(--white); line-height: 1.6; }
         .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
         .accent { color: var(--primary-purple); }
-        .hidden { display: none !important; }
+        .hidden { display: none !important; }                                        /* ⬅ ADDED */
 
-        a:focus-visible, button:focus-visible { outline: 2px solid var(--primary-purple); outline-offset: 2px; }
-
-        @media (prefers-reduced-motion: reduce) {
-            html { scroll-behavior: auto; }
-            * { transition: none !important; animation: none !important; }
-        }
-
-        /* ---------- HEADER ---------- */
         .header { background: var(--white); box-shadow: 0 1px 3px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 100; }
         .navbar { display: flex; align-items: center; justify-content: space-between; height: 70px; }
         .nav-logo { font-size: 1.5rem; font-weight: 700; text-decoration: none; color: var(--text-dark); }
@@ -90,46 +63,34 @@
         .nav-icons a { color: var(--text-light); font-size: 1.2rem; }
         .nav-icons a:hover { color: var(--primary-purple); }
 
-        /* ---------- HERO ---------- */
         .hero { padding: 80px 0; text-align: center; background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%); }
         .hero-title { font-size: 3rem; font-weight: 700; margin-bottom: 15px; }
         .hero-subtitle { font-size: 1.2rem; color: var(--text-light); max-width: 720px; margin: 0 auto 25px; }
         .founder-badge { display: inline-flex; align-items: center; gap: 10px; background: var(--white); padding: 8px 20px; border-radius: 50px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); font-weight: 500; }
         .founder-badge img { width: 28px; height: 28px; border-radius: 50%; }
 
-        /* ---------- SECTIONS ---------- */
         .section { padding: 80px 0; }
         .section-title { font-size: 2rem; font-weight: 700; text-align: center; margin-bottom: 10px; }
         .section-subtitle { text-align: center; color: var(--text-light); margin-bottom: 50px; max-width: 720px; margin-left: auto; margin-right: auto; }
 
-        /* ---------- CARD GRID (auto-scaling) ---------- */
         .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: var(--grid-gap); }
-        .card {
-            background: var(--white);
-            border-radius: var(--border-radius);
-            padding: var(--card-padding);
-            border: 1px solid #e2e8f0;
-            border-top: 4px solid var(--card-accent, var(--primary-purple));
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
+        .card { background: var(--white); border-radius: var(--border-radius); padding: var(--card-padding); border: 1px solid #e2e8f0; border-top: 4px solid var(--card-accent, var(--primary-purple)); transition: transform 0.2s, box-shadow 0.2s; }
         .card:hover { transform: translateY(-4px); box-shadow: 0 10px 30px rgba(0,0,0,0.08); }
         .card-icon { font-size: 2rem; color: var(--card-accent, var(--primary-purple)); margin-bottom: 15px; }
         .card-title { font-size: 1.2rem; font-weight: 600; margin-bottom: 10px; }
         .card-text { color: var(--text-light); font-size: 0.95rem; }
         .card-link { display: inline-flex; align-items: center; gap: 8px; margin-top: 15px; color: var(--primary-purple); text-decoration: none; font-weight: 500; }
         .card-link:hover { text-decoration: underline; }
-        .card-image { width: 100%; height: 180px; object-fit: cover; border-radius: 8px; margin-bottom: 15px; }
+        .card-image { width: 100%; height: 180px; object-fit: cover; border-radius: 8px; margin-bottom: 15px; }   /* ⬅ ADDED */
 
-        /* ---------- PUBLICATIONS ---------- */
         .publication-list { display: flex; flex-direction: column; gap: 25px; }
-        .publication-item { background: var(--white); padding: 25px; border-radius: var(--border-radius); border: 1px solid #e2e8f0; border-left: 4px solid var(--primary-purple); }
+        .publication-item { background: var(--white); padding: 25px; border-radius: var(--border-radius); border: 1px solid #e2e8f0; }
         .pub-title { font-size: 1.1rem; font-weight: 600; margin-bottom: 5px; }
         .pub-authors, .pub-journal { color: var(--text-light); font-size: 0.9rem; }
-        .pub-journal { margin-bottom: 10px; font-style: italic; }
+        .pub-journal { margin-bottom: 10px; }
         .pub-link { color: var(--primary-purple); text-decoration: none; font-weight: 500; }
         .pub-link:hover { text-decoration: underline; }
 
-        /* ---------- TEAM ---------- */
         .founder-container { display: flex; align-items: center; gap: 40px; max-width: 800px; margin: 0 auto 50px; }
         .founder-avatar { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; }
         .founder-info h3 { font-size: 1.5rem; margin-bottom: 5px; }
@@ -145,7 +106,6 @@
         .member-name { font-weight: 600; font-size: 0.95rem; }
         .member-role { font-size: 0.8rem; color: var(--text-light); margin-top: 2px; }
 
-        /* ---------- COMMUNITY ---------- */
         .stats-strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 20px; margin: 60px 0; padding: 30px; background: var(--light-bg); border-radius: var(--border-radius); text-align: center; }
         .stat-value { font-size: 2rem; font-weight: 700; color: var(--primary-purple); line-height: 1.1; }
         .stat-label { font-size: 0.85rem; color: var(--text-light); text-transform: uppercase; letter-spacing: 0.5px; margin-top: 4px; }
@@ -157,14 +117,12 @@
         .contributor-name { font-weight: 600; font-size: 0.95rem; }
         .contributor-role { font-size: 0.8rem; color: var(--text-light); margin-top: 2px; }
 
-        /* ---------- COLLAB ---------- */
         .collab-section { background: var(--light-bg); padding: 60px 0; text-align: center; }
         .collab-section h2 { font-size: 1.8rem; margin-bottom: 15px; }
         .collab-section p { color: var(--text-light); max-width: 620px; margin: 0 auto 25px; }
         .btn { display: inline-block; background: var(--primary-purple); color: white; padding: 12px 30px; border-radius: 50px; text-decoration: none; font-weight: 600; transition: background 0.2s; }
         .btn:hover { background: var(--dark-navy); }
 
-        /* ---------- CONTACT ---------- */
         .contact-section { background: var(--light-bg); }
         .contact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--grid-gap); }
         .contact-card { background: var(--white); padding: 25px; border-radius: var(--border-radius); text-align: center; border-top: 4px solid var(--card-accent, var(--primary-purple)); }
@@ -172,13 +130,11 @@
         .contact-title { font-weight: 600; margin-bottom: 5px; }
         .contact-text { color: var(--text-light); font-size: 0.95rem; }
 
-        /* ---------- FOOTER ---------- */
         .footer { background: var(--dark-navy); color: #94a3b8; padding: 50px 0; text-align: center; font-size: 0.9rem; }
         .footer a { color: #cbd5e1; text-decoration: none; }
         .footer a:hover { color: var(--white); }
         .footer-links { display: flex; justify-content: center; gap: 20px; margin-top: 15px; flex-wrap: wrap; }
 
-        /* ---------- RESPONSIVE ---------- */
         @media (max-width: 768px) {
             :root { --card-padding: 25px; --grid-gap: 20px; }
             .hero-title { font-size: 2.2rem; }
@@ -191,11 +147,6 @@
     </style>
 </head>
 <body>
-
-    <!-- ============================================================
-         ALL CONTENT IS RENDERED FROM content.js
-         Do NOT edit this file to change content — edit content.js.
-         ============================================================ -->
 
     <header class="header">
         <div class="container navbar">
@@ -270,12 +221,12 @@
             <p class="section-subtitle" id="community-subtitle"></p>
             <div class="card-grid" id="community-channels"></div>
             <div class="stats-strip" id="community-stats"></div>
-            <h3 class="community-subhead" id="community-contrib-head">Contributors &amp; Members</h3>
+            <h3 class="community-subhead" id="community-contrib-head">Contributors &amp; Members</h3>   <!-- ⬅ UPDATED: added id so it can hide -->
             <div class="contributor-grid" id="community-contributors"></div>
         </div>
     </section>
 
-    <section class="collab-section" id="collab-section">
+    <section class="collab-section" id="collab-section">                                          <!-- ⬅ UPDATED: added id so it can hide -->
         <div class="container">
             <h2 id="collab-title"></h2>
             <p id="collab-text"></p>
@@ -298,68 +249,53 @@
         </div>
     </footer>
 
-    <!-- ============================================================
-         1. Load content (defines window.SITE)
-         2. Render it into the containers above
-         ============================================================ -->
     <script src="content.js"></script>
     <script>
     (function render() {
+        /* ---------- HELPERS ---------- */
         const $ = id => document.getElementById(id);
         const S = window.SITE || {};
-        const D = S.defaults || {};
+        const D = S.defaults || {};                                                              /* ⬅ ADDED */
 
-        // -- Helpers --
-        const has = v => Array.isArray(v) ? v.length > 0 : !!v;
-        const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({
+        const has = v => Array.isArray(v) ? v.length > 0 : !!v;                                  /* ⬅ ADDED */
+        const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({                             /* ⬅ ADDED */
             '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
         }[c]));
-        const hideSection = id => $(id)?.closest('section')?.classList.add('hidden');
-        const accentLastWord = title =>
-            String(title || '').replace(/(\w+)([\s.!?:;]*)$/, '<span class="accent">$1</span>$2');
+        const hideSection = id => $(id)?.closest('section')?.classList.add('hidden');            /* ⬅ ADDED */
+        const accentLastWord = t =>                                                              /* ⬅ ADDED */
+            String(t || '').replace(/(\w+)([\s.!?:;]*)$/, '<span class="accent">$1</span>$2');
 
-        // -- Fallback values from content.js defaults --
-        const cardColor    = D.cardColor    || 'var(--primary-purple)';
-        const cardIcon     = D.cardIcon     || 'fa-circle';
-        const cardCta      = D.cardCta      || 'Learn More';
-        const avatarBg     = D.avatarBg     || '7C3AED';
+        const cardColor = D.cardColor || 'var(--primary-purple)';                                /* ⬅ ADDED */
+        const cardIcon  = D.cardIcon  || 'fa-circle';                                            /* ⬅ ADDED */
+        const cardCta   = D.cardCta   || 'Learn More';                                           /* ⬅ ADDED */
+        const avatarBg  = D.avatarBg  || '7C3AED';                                               /* ⬅ ADDED */
 
-        // ------------------------------------------------------------
-        // HEADER
-        // ------------------------------------------------------------
+        /* ---------- HEADER ---------- */
         const parts = (S.shortName || S.labName || 'Lab').split(' ');
-        $('nav-logo').innerHTML =
-            `<span>${esc(parts[0])}</span> <span class="accent">${esc(parts.slice(1).join(' '))}</span>`;
+        $('nav-logo').innerHTML = `<span>${esc(parts[0])}</span> <span class="accent">${esc(parts.slice(1).join(' '))}</span>`;
 
-        const buildNavLinks = () => (S.nav || [])
+        const buildNavLinks = () => (S.nav || [])                                                /* ⬅ ADDED helper */
             .map(n => `<a href="${esc(n.href)}">${esc(n.label)}</a>`).join('');
 
         $('nav-links').innerHTML = buildNavLinks()
-            + (S.partnerLabUrl
-                ? `<a href="${esc(S.partnerLabUrl)}" target="_blank" rel="noopener" class="partner-link">
-                     <i class="fas fa-flask"></i> ${esc(S.partnerLabText || 'Partner')}</a>`
-                : '');
+            + (S.partnerLabUrl ? `<a href="${esc(S.partnerLabUrl)}" target="_blank" rel="noopener" class="partner-link">
+                 <i class="fas fa-flask"></i> ${esc(S.partnerLabText || 'Partner')}</a>` : '');
 
         $('nav-icons').innerHTML = [
-            S.github   ? `<a href="${esc(S.github)}"   target="_blank" rel="noopener" title="GitHub"   aria-label="GitHub"><i class="fab fa-github"></i></a>`   : '',
-            S.twitter  ? `<a href="${esc(S.twitter)}"  target="_blank" rel="noopener" title="Twitter"  aria-label="Twitter"><i class="fab fa-twitter"></i></a>` : '',
-            S.youtube  ? `<a href="${esc(S.youtube)}"  target="_blank" rel="noopener" title="YouTube"  aria-label="YouTube"><i class="fab fa-youtube"></i></a>` : '',
-            S.linkedin ? `<a href="${esc(S.linkedin)}" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>` : '',
-        ].join('');
+            S.github   ? `<a href="${esc(S.github)}"   target="_blank" rel="noopener" title="GitHub"   aria-label="GitHub"><i class="fab fa-github"></i></a>`   : "",
+            S.twitter  ? `<a href="${esc(S.twitter)}"  target="_blank" rel="noopener" title="Twitter"  aria-label="Twitter"><i class="fab fa-twitter"></i></a>` : "",
+            S.youtube  ? `<a href="${esc(S.youtube)}"  target="_blank" rel="noopener" title="YouTube"  aria-label="YouTube"><i class="fab fa-youtube"></i></a>` : "",
+            S.linkedin ? `<a href="${esc(S.linkedin)}" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>` : "",
+        ].join("");
 
-        // ------------------------------------------------------------
-        // HERO
-        // ------------------------------------------------------------
+        /* ---------- HERO ---------- */
         document.title = `${S.labName || 'Lab'} | ${S.tagline || ''}`.trim();
-        $('hero-title').innerHTML =
-            `${esc(S.taglinePart1 || '')} <span class="accent">${esc(S.taglinePart2 || '')}</span>`;
+        $('hero-title').innerHTML = `${esc(S.taglinePart1 || '')} <span class="accent">${esc(S.taglinePart2 || '')}</span>`;
         $('hero-subtitle').textContent = S.description || '';
         $('hero-avatar').src = `https://ui-avatars.com/api/?name=${encodeURIComponent(S.founderName || 'Lab')}&background=${avatarBg}&color=fff&size=28`;
         $('hero-badge-text').textContent = S.heroBadge || '';
 
-        // ------------------------------------------------------------
-        // CARD HELPER (with defaults)
-        // ------------------------------------------------------------
+        /* ---------- CARD HELPER (defaults-aware) ---------- */                                /* ⬅ UPDATED */
         function cardHTML(c) {
             const iconRaw   = c.icon  || cardIcon;
             const iconClass = iconRaw.includes(' ') ? iconRaw : `fas ${iconRaw}`;
@@ -370,29 +306,25 @@
                 <div class="card-icon"><i class="${esc(iconClass)}"></i></div>
                 <h3 class="card-title">${esc(c.title || '')}</h3>
                 <p class="card-text">${esc(c.text || '')}</p>
-                ${c.link ? `<a href="${esc(c.link)}" target="_blank" rel="noopener" class="card-link">${esc(cta)} <i class="fas fa-arrow-right"></i></a>` : ''}
+                ${c.link ? `<a href="${esc(c.link)}" target="_blank" rel="noopener" class="card-link">${esc(cta)} <i class="fas fa-arrow-right"></i></a>` : ""}
             </div>`;
         }
 
-        // ------------------------------------------------------------
-        // CARD SECTIONS (About / Research / Tools)
-        // ------------------------------------------------------------
-        function renderCards(prefix, key) {
-            const s = S[key];
-            if (!s || !has(s.cards)) { hideSection(prefix); return; }
-            $(prefix + '-title').innerHTML    = accentLastWord(s.title);
-            $(prefix + '-subtitle').textContent = s.subtitle || '';
-            $(prefix + '-cards').innerHTML    = s.cards.map(cardHTML).join('');
+        /* ---------- CARD SECTIONS ---------- */                                               /* ⬅ UPDATED: empty-safe */
+        function renderCards(sectionId, sectionKey) {
+            const s = S[sectionKey];
+            if (!s || !has(s.cards)) { hideSection(sectionId); return; }
+            $(sectionId + '-title').innerHTML = accentLastWord(s.title);
+            $(sectionId + '-subtitle').textContent = s.subtitle || '';
+            $(sectionId + '-cards').innerHTML = s.cards.map(cardHTML).join("");
         }
         renderCards('about',    'about');
         renderCards('research', 'research');
         renderCards('tools',    'tools');
 
-        // ------------------------------------------------------------
-        // PUBLICATIONS
-        // ------------------------------------------------------------
+        /* ---------- PUBLICATIONS ---------- */                                                /* ⬅ UPDATED: empty-safe + escaped */
         if (has(S.publications?.items)) {
-            $('pub-title').innerHTML    = accentLastWord(S.publications.title);
+            $('pub-title').innerHTML = accentLastWord(S.publications.title);
             $('pub-subtitle').textContent = S.publications.subtitle || '';
             $('pub-list').innerHTML = S.publications.items.map(p => `
                 <div class="publication-item">
@@ -400,14 +332,12 @@
                     ${p.authors ? `<p class="pub-authors"><strong>${esc(p.authors)}</strong></p>` : ''}
                     ${p.journal ? `<p class="pub-journal">${esc(p.journal)}</p>` : ''}
                     ${p.doi ? `<a href="${esc(p.doi)}" target="_blank" rel="noopener" class="pub-link">DOI</a>` : ''}
-                </div>`).join('');
+                </div>`).join("");
         } else {
             hideSection('publications');
         }
 
-        // ------------------------------------------------------------
-        // TEAM
-        // ------------------------------------------------------------
+        /* ---------- TEAM ---------- */                                                       /* ⬅ UPDATED: empty-safe */
         if (S.team && (S.team.name || has(S.team.members))) {
             $('team-title').innerHTML = accentLastWord(S.team.title);
             $('team-avatar').src = S.team.avatar || '';
@@ -416,10 +346,10 @@
             $('team-role').textContent = S.team.role || '';
             $('team-bio').textContent  = S.team.bio  || '';
             $('team-social').innerHTML = [
-                S.github     ? `<a href="${esc(S.github)}" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>` : '',
-                S.email      ? `<a href="mailto:${esc(S.email)}" title="Email"><i class="fas fa-envelope"></i></a>` : '',
-                S.team.orcid ? `<a href="${esc(S.team.orcid)}" target="_blank" rel="noopener" title="ORCID"><i class="fab fa-orcid"></i></a>` : '',
-            ].join('');
+                S.github     ? `<a href="${esc(S.github)}" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>` : "",
+                S.email      ? `<a href="mailto:${esc(S.email)}" title="Email"><i class="fas fa-envelope"></i></a>` : "",
+                S.team.orcid ? `<a href="${esc(S.team.orcid)}" target="_blank" rel="noopener" title="ORCID"><i class="fab fa-orcid"></i></a>` : "",
+            ].join("");
 
             if (has(S.team.members)) {
                 $('team-members').innerHTML = S.team.members.map(m => `
@@ -428,7 +358,7 @@
                              onerror="this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(m.name || '')}&background=${avatarBg}&color=fff&size=90'">
                         <div class="member-name">${esc(m.name)}</div>
                         <div class="member-role">${esc(m.role)}</div>
-                    </a>`).join('');
+                    </a>`).join("");
             } else {
                 $('team-members').classList.add('hidden');
             }
@@ -436,15 +366,13 @@
             hideSection('team');
         }
 
-        // ------------------------------------------------------------
-        // COMMUNITY
-        // ------------------------------------------------------------
+        /* ---------- COMMUNITY ---------- */                                                  /* ⬅ UPDATED: empty-safe + id-based hide */
         if (S.community) {
             $('community-title').innerHTML    = accentLastWord(S.community.title);
             $('community-subtitle').textContent = S.community.subtitle || '';
 
             if (has(S.community.channels)) {
-                $('community-channels').innerHTML = S.community.channels.map(cardHTML).join('');
+                $('community-channels').innerHTML = S.community.channels.map(cardHTML).join("");
             } else {
                 $('community-channels').classList.add('hidden');
             }
@@ -454,7 +382,7 @@
                     <div>
                         <div class="stat-value">${esc(s.value)}</div>
                         <div class="stat-label">${esc(s.label)}</div>
-                    </div>`).join('');
+                    </div>`).join("");
             } else {
                 $('community-stats').classList.add('hidden');
             }
@@ -466,7 +394,7 @@
                              onerror="this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(p.name || '')}&background=${avatarBg}&color=fff&size=90'">
                         <div class="contributor-name">${esc(p.name)}</div>
                         <div class="contributor-role">${esc(p.role)}</div>
-                    </a>`).join('');
+                    </a>`).join("");
             } else {
                 $('community-contributors').classList.add('hidden');
                 $('community-contrib-head').classList.add('hidden');
@@ -475,9 +403,7 @@
             hideSection('community');
         }
 
-        // ------------------------------------------------------------
-        // COLLAB
-        // ------------------------------------------------------------
+        /* ---------- COLLAB ---------- */                                                     /* ⬅ UPDATED: standard accent regex + id-based hide */
         if (S.collab && S.partnerLabUrl) {
             $('collab-title').innerHTML = accentLastWord(S.collab.title);
             $('collab-text').textContent = S.collab.text || '';
@@ -487,33 +413,27 @@
             $('collab-section').classList.add('hidden');
         }
 
-        // ------------------------------------------------------------
-        // CONTACT
-        // ------------------------------------------------------------
+        /* ---------- CONTACT ---------- */                                                    /* ⬅ UPDATED: default-aware + empty-safe */
         if (S.contact && has(S.contact.cards)) {
-            $('contact-title').innerHTML    = accentLastWord(S.contact.title);
+            $('contact-title').innerHTML = accentLastWord(S.contact.title);
             $('contact-subtitle').textContent = S.contact.subtitle || '';
             $('contact-grid').innerHTML = S.contact.cards.map(c => `
                 <div class="contact-card" style="--card-accent:${esc(c.color || cardColor)}">
                     <div class="contact-icon"><i class="fas ${esc(c.icon || cardIcon)}"></i></div>
                     <h3 class="contact-title">${esc(c.title || '')}</h3>
                     <p class="contact-text">${esc(c.text || '')}</p>
-                </div>`).join('');
+                </div>`).join("");
         } else {
             hideSection('contact');
         }
 
-        // ------------------------------------------------------------
-        // FOOTER
-        // ------------------------------------------------------------
+        /* ---------- FOOTER ---------- */                                                     /* ⬅ UPDATED: fallback + shared nav helper */
         $('footer-copy').textContent =
             (S.footer && S.footer.copyright) ||
             `© ${S.year || ''} ${S.labName || ''}`.trim();
 
         $('footer-links').innerHTML = buildNavLinks()
-            + (S.partnerLabUrl
-                ? `<a href="${esc(S.partnerLabUrl)}" target="_blank" rel="noopener">${esc(S.partnerLabText || 'Partner')}</a>`
-                : '');
+            + (S.partnerLabUrl ? `<a href="${esc(S.partnerLabUrl)}" target="_blank" rel="noopener">${esc(S.partnerLabText || 'Partner')}</a>` : "");
     })();
     </script>
 </body>
