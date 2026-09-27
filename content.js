@@ -27,13 +27,13 @@ const SITE = {
   twitter:   "",
   linkedin:  "",
   youtube:   "",
-  email:     "TODO@example.com",
-  phone:     "TODO",
+  email:     "kamol.mbio@gmail.com",
+  phone:     "01775510351",
   location:  "Department of Microbiology, University of Chittagong · Ramakrishna Mission, Hathazari, Chittagong, Bangladesh",
 
   /* ---------- LINK BACK TO ECOBIOREMEDIATION LAB ---------- */
-  partnerLabUrl:  "https://ecobioremediation.pages.dev/",
-  partnerLabText: "EcoBio Lab",
+  partnerLabUrl:  "https://rsv8lab-github-io.pages.dev/#",
+  partnerLabText: "Eco-Bio Lab",
 
   /* ---------- NAV LINKS ---------- */
   nav: [
