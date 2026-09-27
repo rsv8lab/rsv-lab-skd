@@ -28,6 +28,7 @@ const SITE = {
   linkedin:  "https://www.linkedin.com/in/kamol-das-7a4b0b1b7/",
   youtube:   "https://www.youtube.com/@RSVLab",
   email:     "kamol.mbio@gmail.com",
+  orcid: "https://orcid.org/0009-0004-2253-7527",
   phone:     "01775510351",
   location:  "Department of Microbiology, University of Chittagong · Ramakrishna Mission, Hathazari, Chittagong, Bangladesh",
 
