@@ -56,7 +56,6 @@ const SITE = {
   youtube:   "https://www.youtube.com/@RSVLab",
   email:     "kamol.mbio@gmail.com",
   orcid:     "https://orcid.org/0009-0004-2253-7527",
-  phone:     "01775510351",
   location:  "Department of Microbiology, University of Chittagong · Ramakrishna Mission, Hathazari, Chittagong, Bangladesh",
 
   /* ------------------------------------------------------------
@@ -261,8 +260,10 @@ const SITE = {
       {
         name:   "Sazal Das",
         role:   "Researcher",
-        avatar: "https://github.com/KamolDas.png",
-        url:    "https://github.com/KamolDas",
+        // TODO: replace with Sazal's real GitHub username once available —
+        // this was previously (incorrectly) copied from Kamol's own profile.
+        avatar: "https://ui-avatars.com/api/?name=Sazal+Das&background=7614DC&color=fff&size=90",
+        url:    "#",
       },
     ],
   },
