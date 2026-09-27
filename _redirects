@@ -1,8 +1,9 @@
-# Clean URLs (add more as you split into sub-pages)
-/about      /about.html      200
-/research   /research.html   200
-/tools      /tools.html      200
-/team       /team.html       200
+# Clean URLs — the site is single-page, so these redirect
+# to the matching in-page anchor instead of a nonexistent .html file.
+/about      /#about      301
+/research   /#research   301
+/tools      /#tools      301
+/team       /#team       301
 
 # 404 fallback
 /*  /404.html  404
