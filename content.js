@@ -193,6 +193,7 @@ const SITE = {
 
     contributors: [
       { name: "Kamol Das", role: "Researcher", avatar: "https://github.com/KamolDas.png", url: "https://github.com/KamolDas" },
+      { name: "Sazal Das", role: "Researcher", avatar: "https://github.com/KamolDas.png", url: "https://github.com/KamolDas" },
     ],
   },
 
